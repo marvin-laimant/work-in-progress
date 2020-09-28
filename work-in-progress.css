@@ -1,0 +1,38 @@
+.fond{
+  background-image: url(galaxie.png);
+}
+
+
+
+.titre{
+    color: whitesmoke;
+    text-align: center;
+    
+    
+}
+
+.paragraphe{
+    color: thistle;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.phrasedefin{
+    color: whitesmoke;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.vaisseau{
+text-align: center;
+    
+}
+
+
+}
+
+.para{
+    text-align: center;
+}
