@@ -1,38 +1,70 @@
-.fond{
-  background-image: url(galaxie.png);
-}
-
-
-
-.titre{
-    color: whitesmoke;
+.hautdepage{background-color: grey;
+    font-size: 50px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
+.basdepage{background-color: yellow;
+    font-size: 50px;
+text-align: center;}
     
-    
+
+*{          margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.fondrougedegrade{    min-height: 70vh;
+    background: linear-gradient(0deg,#fff,red);}
+
+.milieu{      position: relative;
+    widows: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.milieu h2{   font-size: 16em;
+    color: #fff;
+    text-shadow: 15px 15px 0 rgba(0,0,0,0.1);
+    border-radius: 10px;}
+
+.milieu h2 img{
+    border-radius: 20px;
 }
 
-.paragraphe{
-    color: thistle;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+.milieu h2 {display: inline-block;
+    animation: animate 2s ease-in-out infinite;}
+.milieu h2 span:nth-child(even)
+{animation-delay: -1s;}
 
+@keyframes animate
+{
+0%,100%
+{
+transform: translateY(-50px);
 }
+50%
+{
+transform: translateY(50px);}}
 
-.phrasedefin{
-    color: whitesmoke;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.dessous{
+height: 4vh;
+background-position: #6e2308;
+text-align: center;}
 
-}
+.dessous h2{color: #fff;
+font-size: 2em;
+margin-bottom: 20px;}
 
-.vaisseau{
-text-align: center;
-    
-}
+.dessous a{background: #fff;
+color: #000;
+width: 160px;
+border-radius: 50px;
+display: inline-block;
+text-decoration: none;
+font-size: 20px;}
 
-
-}
-
-.para{
-    text-align: center;
+.article {
+color: yellowgreen;
 }
